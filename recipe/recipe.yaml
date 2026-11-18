@@ -3,7 +3,7 @@ schema_version: 1
 context:
   python_min: "3.10"
   name: paradoc
-  version: "0.12.1"
+  version: "0.13.0"
 
 package:
   name: ${{ name }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://github.com/Krande/paradoc/archive/v${{ version }}.tar.gz
-  sha256: e68aa7f03f86d211b891990328a1078d2fd2355352f17959cb49dd40a0269c73
+  sha256: b638a449c3923f41eeda254ce026ff668122a0a53d8ca1f5d53cb6e225f64848
 
 build:
   number: 0
